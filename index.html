@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Waliul Personal Website </title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/bd19b33c90.js" crossorigin="anonymous"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+<section id="banner">
+<img src="logo.png" class="logo">
+<div class="banner-text">
+<h1> Welcome to my Website </h1>
+<p> I am a web developer. I already learnt HTML,CSS and JAVASCRIPT.<br> I can build any simple website. </p>
+<div class="banner-btn">
+<a href="#"><span> </span>Find Out </a>
+<a href="#"><span> </span>Read More </a>
+</div>
+</div>
+</section>
+
+<div id="sideNav">
+<nav>
+<ul>
+<li><a href="#"> HOME</a></li>
+<li><a href="#">FEATURES</a></li>
+<li><a href="#">SERVICES</a></li>
+<li><a href="#">TESTIMONIALS</a></li>
+<li><a href="#">MEET US</a></li>
+</ul>
+</nav>
+</div>
+<div id="menuBtn"> 
+<img src="menu.png" id="menu"> 
+
+</div>
+
+
+ <!--Features-->
+
+
+ <section id="feature">
+ <div class="title-text">
+ 
+ <p>FEATURES</P>
+ <H1>Why Choose Us </h1>
+ </div>
+ <div class="feature-box">
+ <div class="features">
+ 
+  <h1> Web Developer </h1>
+  <div class="features-desc">
+    <div class="feature-icon">
+    <i class="fas fa-globe"></i>
+	</div>
+    <div class="feature-text">
+	  <p>  I am the master of HTML, CSS and Javascript. 
+	  I know  everything needed to make a website function efficiently.
+	  I didn’t stop with the website. I even know the development, server and security. 
+	  I will give you 100% web solution.  </p></p>
+	  </div>
+  </div>
+  <h1> Graphics Desiner </h1>
+  <div class="features-desc">
+    <div class="feature-icon">
+    <i class="fas fa-palette"></i>
+	</div>
+    <div class="feature-text">
+	  <p> I am also a graphic desiner. I have been learning it since 2019. Now I can creat any kind of desine such as Id card, Business card, 
+          Social media cover photo, App desine, Book cover desine etc.</p>
+	  </div>
+  </div>
+  
+  <h1>Video Editor/Youtuber</h1>
+  <div class="features-desc">
+    <div class="feature-icon">
+  <i class="fas fa-photo-video"></i>
+	</div>
+    <div class="feature-text">
+	  <p> I am a video editor also. I made lots of video and uploaded on my youtube channel as well.
+       I learnt it from watching youtube videos and any other sources. 	  </p>
+	  </div>
+  </div>
+ </div>
+     <div class="features-img">
+       <img src="eb.jpg">
+     </div>
+  </div>
+ 
+ </section> 
+
+
+ <!--Service  -->
+ 
+ <section id="service">
+      <div class="title-text">
+      <p>SERVICES</P>
+      <H1>We Provide Better </h1>
+      </div>
+	<div class="service-box">
+	<div class="single-service">
+	  <img src="101.jpg">
+	   <div class="overlay"></div>
+	     <div class="service-desc">
+		   <h3>Hair Styling</h3>
+		   <hr>
+		   <p> Right now I did not write anything
+		     here. It will be written latter.</p>
+		 </div>
+	   </div>
+	<div class="single-service">
+	  <img src="102.jpg">
+	     <div class="overlay"></div>
+		  <div class="service-desc">
+		   <h3>Beard trip</h3>
+		   <hr>
+		   <p> Right now I did not write anything
+		     here. It will be written latter.</p>
+		 </div>
+	</div>
+	<div class="single-service">
+	   <img src="103.jpg">
+	      <div class="overlay"></div>
+		   <div class="service-desc">
+		   <h3>Hair cut</h3>
+		   <hr>
+		   <p> Right now I did not write anything
+		     here. It will be written latter.</p>
+		 </div>
+	</div>
+	<div class="single-service">
+	   <img src="104.jpg">
+	     <div class="overlay"></div>
+		  <div class="service-desc">
+		   <h3>Dry shapoo</h3>
+		   <hr>
+		   <p> Right now I did not write anything
+		     here. It will be written latter.</p>
+		 </div>
+	</div>
+	</div>
+	
+ </section>
+ 
+ <!-- Testimonial  -->
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+<script>
+ var menuBtn = document.getElementById("menuBtn")
+ var sideNav = document.getElementById("sideNav")
+ var menu = document.getElementById("menu")
+ 
+  sideNav.style.right = "-200px";
+  
+ menuBtn.onclick = function(){
+ if(sideNav.style.right == "-200px"){
+ sideNav.style.right = "0";
+ menu.src = "ses.png";
+ }
+ else{
+   sideNav.style.right = "-200px";
+   menu.src = "menu.png";
+ }
+}
+</script>
+
+
+
+
+
+
+
+</body>
+
+</html>
