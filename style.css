@@ -23,7 +23,7 @@
 }
 
 .banner-text h1{
-	font-size:50px;
+	font-size:60px;
 	font-family: 'Kaushan Script', cursive;
 	
 }
@@ -313,7 +313,7 @@
     height: 2px;	
 	border: 0;
 	margin: 15px auto;
-    width: 60%;	
+    width: 65%;	
   }
    .service-desc p{
 	font-size: 14px;  
@@ -477,7 +477,31 @@
 	 transition: .5s;
 	 
  }
+ 
+ 
+ 
+  .social-links .fas{
+	 height: 40px;
+	 width: 40px;
+	 font-size: 20px;
+	 line-height: 40px;
+	 border: 1px solid #009688;
+	 margin: 40px 5px 0;
+	 color: #009688;
+	 cursor: pointer;
+	 transition: .5s;
+	 
+ }
+ 
   .social-links .fab:hover{
+	  background: #009688;
+	  color: #fff;
+	  transform: translateY(-7px);
+  }
+  
+  
+  
+    .social-links .fas:hover{
 	  background: #009688;
 	  color: #fff;
 	  transform: translateY(-7px);
@@ -499,7 +523,7 @@
 	.footer-img{
 		top: 25%;
 	}  
-		   
+  
    }
   
   
