@@ -6,6 +6,8 @@
 <script src="https://kit.fontawesome.com/bd19b33c90.js" crossorigin="anonymous"></script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 
 </head>
 
@@ -25,11 +27,11 @@
 <div id="sideNav">
 <nav>
 <ul>
-<li><a href="#"> HOME</a></li>
-<li><a href="#">FEATURES</a></li>
-<li><a href="#">SERVICES</a></li>
-<li><a href="#">TESTIMONIALS</a></li>
-<li><a href="#">MEET US</a></li>
+<li><a href="#banner"> HOME</a></li>
+<li><a href="#feature">FEATURES</a></li>
+<li><a href="#service">SERVICES</a></li>
+<li><a href="#testimonial">TESTIMONIALS</a></li>
+<li><a href="#footer">MEET US</a></li>
 </ul>
 </nav>
 </div>
@@ -147,8 +149,85 @@
  
  <!-- Testimonial  -->
  
+  <section id="testimonial">
+      <div class="title-text">
+      <p>TESTIMONIAL</P>
+      <H1>What Client Says </h1>
+      </div>
+    <div class="testimonial-row">
+      <div class="testimonial-col"> 
+	     <div class="user">
+           <img src="WALIUL.jpg">
+		     <div class="user-info">
+			   <h4>KEN NORMAN <i class="fab fa-twitter"></i></h4>
+			    <small> @kennroman</small>
+			 </div>
+		 </div>
+	    <p>Nothing is written now. It will be written latter as soon as possible.
+		Nothing is written now. It will be written latter as soon as possible.
+		Nothing is written now. It will be written latter as soon as possible.
+		Nothing is written now. It will be written latter as soon as possible. </p>
+	  </div>
+      <div class="testimonial-col">
+	     <div class="user">
+           <img src="12.jpg">
+		     <div class="user-info">
+			   <h4>ALAQU THALSAS <i class="fab fa-twitter"></i></h4>
+			    <small> @alaquthalacsas</small>
+			 </div>
+		 </div>
+	    
+       <p>Nothing is written now. It will be written latter as soon as possible.
+		Nothing is written now. It will be written latter as soon as possible.
+		Nothing is written now.  </p>
+	  </div>
+      <div class="testimonial-col">
+           <div class="user">
+           <img src="wnew.jpg">
+		     <div class="user-info">
+			   <h4>SEQUEL BEGEL<i class="fab fa-twitter"></i></h4>
+			    <small> @sequelbegel</small>
+			 </div>
+		 </div>
+	    
+	     <p>Nothing is written now. It will be written latter as soon as possible.
+		Nothing is written now. It will be written latter as soon as possible.
+		Nothing is written now. It will be written latter as soon as possible.
+		Nothing is written now. It will be written latter as soon as possible. </p>
+	  </div>
+	</div>
+ </section>
  
- 
+  <!--footer-->
+  
+  <section id="footer">
+    <img src="eb.png" class="footer-img">
+    <div class="title-text">
+      <p>CONTACT</P>
+      <H1>Visit Shop Today </h1>
+      </div>
+  <div class="footer-row">
+    <div class="footer-left">
+	  <h1> Available Me</h1>
+	   <p><i class="fas fa-clock"></i>Sunday to Thursday - 10am to 12am</p>
+	    <p><i class="fas fa-clock"></i>Friday and Saturday - 9am to 02am</p>
+	</div>
+	<div class="footer-right">
+	  <h1>Get In Touch</h1>
+	    <p>Bishnudia, EB, Kushtia,Bangladesh.<i class="fas fa-map-marker-alt"></i></p>
+		<p>waliulrfl001@gmail.com<i class="fas fa-paper-plane"></i></p>
+	    <p>+8801712205348<i class="fas fa-phone-alt"></i></p>
+	</div>
+  </div>  
+  
+ <div class="social-links">
+  <a href="https://www.facebook.com/waliul.islam.16568"> <i class="fab fa-facebook"></i></a>
+  <a href="https://www.instagram.com/p/BnZAkRalCcM/?utm_source=ig_web_copy_link"> <i class="fab fa-instagram"></i></a>
+  <a href="https://mobile.twitter.com/waliul8"> <i class="fab fa-twitter"></i></a>
+   <a href="https://www.youtube.com/channel/UC00gJCm9IuCkCiI99H81sVA"> <i class="fab fa-youtube"></i></a>
+	 <p>Copyright Waliul Islam. Phone: 01712-205348</p>
+	</div>
+  </section>
  
  
  
@@ -172,6 +251,14 @@
    menu.src = "menu.png";
  }
 }
+
+
+
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+
 </script>
 
 
