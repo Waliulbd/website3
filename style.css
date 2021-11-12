@@ -434,6 +434,10 @@
 	text-align: right;
 }
 
+.footer-right a{
+	color: #009688;
+}
+
  .footer-row h1{
 	 margin: 10px 0; 
 	 
@@ -512,7 +516,9 @@
 	  font-size: 12px;
 	  margin-top: 20px;
   }
-  
+  .social-links a{
+	  color: #009688;
+  }
   
   
    @media screen and (max-width: 770px){
